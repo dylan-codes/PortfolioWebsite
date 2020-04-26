@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>My Portfolio!</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div id="navbar">
+      <nav>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/dylan-davis-363a97160?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjxMkWy1ARUGPUlrfNEaiyw%3D%3D" target="_blank" class="fa-github"><img src="github-brands.svg" alt="github" width="30" height="30"></a></li>
+          <li><a href="https://github.com/dylan-codes" target="_blank" class="fa-linkedin"><img src="linkedin-brands.svg" alt="LinkedIn" width="30" height="30"></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <div id="typed-strings">
+          <span class="logo"><img src="deploydog-brands.svg" alt="deploydog" width="80" height="80"></span>
+          <h1>Hi, I'm Dylan. I'm a <span class="typed"></span></h1>
+          <!-- Typed.js -->
+          <script src="typed.js"></script>
+            <script>
+              var typed = new Typed(".typed", {
+                strings: [
+                    "Web Developer.",
+                    "Designer.",
+                    "Movie Watcher."],
+                  typeSpeed: 70,
+                  backSpeed: 70,
+                loop: true
+              });
+              </script>
+        </div>
+      </header>
+
+      <!-- Introduction -->
+      <div id="main">
+        <section id="introduction">
+          <h2>About Me</h2>
+        </section>
+        <section id="about">
+          <header class="major">
+            <h2>Who am I?</h2>
+          </header>
+          <p>I am currently a Junior at Troy University majoring in Computer Science!</p>
+          <p>I am extremely passionate about learning new technologies and bringing them to life in my browser.</p>
+          <h3>Check out my resume <a id="resume" href="DylanDavisResume.pdf" target="_blank">HERE!</a></h3>
+        </section>
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills">
+          <header class="major">
+            <h2 id="title">Skills:</h2>
+          </header>
+            <div style="float: left; width: 25%; padding-left: 200px">
+              <ul>
+                <li><h3>Frontend</h3></li>
+                <li><p>Javascript</p></li>
+                <li><p>HTML</p></li>
+                <li><p>CSS</p></li>
+              </ul>
+            </div>
+            <div style="float: right; width: 25%; padding-right: 230px">
+              <ul>
+                <li><h3>Backend</h3></li>
+                <li><p>C++</p></li>
+                <li><p>Java</p></li>
+              </ul>
+            </div>
+        </section>
+      <hr>
+
+        <!-- Projects -->
+        <section id="projects">
+          <header class="major">
+            <h2>Projects:</h2>
+          </header>
+              <div class="project">
+                <a href="http://ec2-18-188-134-179.us-east-2.compute.amazonaws.com/" target="_blank"><img src="Brandit.jpg" alt="BrandIt!" onmouseover="this.src='BranditMouseover.jpg'" onmouseout="this.src='Brandit.jpg'"></a>
+                <div class="container">
+                  <hr>
+                  <a class="button" href="https://github.com/dylan-codes/BrandItTroyHack2020" target="_blank">View the Code</a>
+                </div>
+              </div>
+              <div class="project">
+                <a><img id="project2" src="battleship.jpg" alt="Battleship" width="470" height="323" onmouseover="this.src='battleshipMouseover.jpg'" onmouseout="this.src='battleship.jpg'"></a>
+                <div class="container">
+                <a class="button" href="https://github.com/dylan-codes/battleshipProject" target="_blank">View the Code</a>
+                </div>
+              </div>
+        </section>
+      </div>
+    </div>
+    <section id="contact">
+      <h2> Contact Me! </h2>
+        <p>Email: ddavis158646@troy.edu</p>
+        <p>Phone: 256-794-3130</p>
+    </section>
+  </body>
+</html>

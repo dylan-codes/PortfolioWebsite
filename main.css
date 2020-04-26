@@ -1,0 +1,133 @@
+body, html {
+background-color: #935d8c;
+background: linear-gradient(#e66465, #9198e5);
+font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+/* NAVBAR ELEMENTS */
+
+#navbar{
+  width: 100%;
+  height: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  top: 0px;
+  left: 0px;
+}
+
+/* Navbar Logos */
+.fa-github {
+  float: right;
+  padding-top: 10px;
+  padding-right: 115px;
+}
+.fa-linkedin {
+  float: right;
+  padding-top: 11px;
+  padding-right: 10px;
+}
+li {
+  list-style-type: none;
+}
+
+/* WRAPPER ELEMENTS */
+#wrapper {
+  width: 64em;
+  margin: 0 auto;
+}
+#header{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/*Main Elements*/
+header.major h2:after {
+  display: block;
+  content: '';
+  width: 3.25em;
+  height: 2px;
+  margin: 0.4em 0 2em 0;
+}
+header.major h2:after {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+#main header.major h2:after {
+    background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    margin-left: auto;
+    margin-right: auto;
+  }
+#main {
+  background-color: #ffffff;
+  color: #636363;
+  border-radius: .25em;
+  text-align: center;
+}
+#introduction {
+  background-color: #f7f7f7;
+  border-radius: .25em;
+  padding-top: .5px;
+  padding-bottom: .5px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+}
+#first {
+  text-align: center;
+}
+#first h2 {
+  font-size: 20px;
+}
+#skills {
+  padding-bottom: 180px;
+}
+#title{
+  padding-bottom: 10px;
+}
+#projects{
+  padding-bottom: 40px;
+}
+div.project {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+img{
+  margin-top: 10px;
+}
+#contact {
+  text-align: center;
+}
+.button {
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  height: 2.75em;
+  line-height: 2.75em;
+  min-width: 9.25em;
+  padding: 0 1.5em;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #dddddd;
+  color: #636363;
+}
+.button:hover {
+	background-color: rgba(222, 222, 222, 0.25);
+}
+.button:active {
+	background-color: rgba(222, 222, 222, 0.5);
+}
